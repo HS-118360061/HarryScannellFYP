@@ -151,8 +151,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             i = 0;
             Arrays.fill(Dist,0);
 
-            tvDistance.setText("500m Split:  " + 0 + "");
-            tvSpeed.setText("500m Split:  " + 0 + "");
+            tvDistance.setText(0 + "m");
+            tvSpeed.setText(0 + "");
 
             timerStarted = false;
             timerText.setText(formatTime(0, 0, 0));
@@ -311,7 +311,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
               //  tvSpeed.setText("500m Split:  " + Speed + "");
               */
 
-                tvSpeed.setText("500m Split:  " + getSpeedinFormat());
+                tvSpeed.setText(getSpeedinFormat());
                 Speed = getSpeedinFormat();
             }
 
@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
             NoDecDistance= (int) addDistanceUp;
 
-             tvDistance.setText("Distance: " + NoDecDistance + " meters");
+             tvDistance.setText(NoDecDistance + "m");
 
 
             //ref [1]

@@ -7,12 +7,15 @@ who want to use a familiar spreadsheet-like interface to manage database files
 without having to learn complicated SQL commands."
 
 setting up android studio and github
-
+https://www.youtube.com/watch?v=SzrETQdGzBM -- this showed how to make a access token in github
+https://www.youtube.com/watch?v=njkhVwZCF8k -- this showed how to connect the two.
 
 git licence - gnu general public license
 "Everyone is permitted to copy and distribute verbatim copies
 of this license document, but changing it is not allowed."
 
+
+img.png - creative content license - https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Frowing-sports-boat-logo-pictogram-40780%2F&psig=AOvVaw1Ci2PbE6mq4SKHjuIS0E96&ust=1636567163119000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjJk4Pui_QCFQAAAAAdAAAAABAO
 FYP References:
 1.	https://www.youtube.com/watch?v=hDSVInZ2JCs
     This is where I got the code for the DB
