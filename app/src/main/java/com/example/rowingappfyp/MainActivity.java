@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         try {
             DatabaseObject db = new DatabaseObject(MainActivity.this);
-            sessionID = db.sessionID();
+            sessionID = db.sessionID() + 1;
         } catch (Exception e){
             sessionID = 1;
         }
@@ -245,11 +245,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private String getSpeedinFormat() {
         int rounded = (int) Math.round(split);
 
-        seconds = ((rounded % 86400) % 3600) % 60;
-        minutes = ((rounded % 86400) % 3600) / 60;
+        secs = ((rounded % 86400) % 3600) % 60;
+        mins = ((rounded % 86400) % 3600) / 60;
        // hours = ((rounded % 86400) / 3600);
 
-        return formatSpeedTv(seconds, minutes);
+        return formatSpeedTv(secs, mins);
     }
 
 
